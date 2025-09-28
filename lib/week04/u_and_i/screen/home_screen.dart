@@ -46,7 +46,7 @@ class _DDay extends StatelessWidget {
   _DDay({required this.onHeartPressed,//상위 함수 입력받기
   });
 
-  
+
   //하트 눌렀을때 실행할 함수
   final GestureTapCallback onHeartPressed;
   @override
@@ -73,7 +73,7 @@ class _DDay extends StatelessWidget {
         const SizedBox(height: 16.0,),
         IconButton( //하트 아이콘 버튼
           iconSize: 60.0,
-          onPressed: (){},
+          onPressed: onHeartPressed, // 아이콘 눌렀을 때 실행할 함수
           icon: Icon(
             Icons.favorite,
             color: Colors.red, // 색상 빨강으로 변경
