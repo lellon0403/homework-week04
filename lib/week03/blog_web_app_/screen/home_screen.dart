@@ -5,7 +5,7 @@ class HomeScreen extends StatelessWidget {
   WebViewController webViewController = WebViewController();
 
   //const 생성자 
-  const HomeScreen({Key? key}) : super(key : key);
+  HomeScreen({Key? key}) : super(key : key);
   
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar( 
 
         //배경색 지정
-        backgroundColor: Colors.orange,
+        backgroundColor: const Color.fromARGB(255, 9, 9, 9),
 
         //앱 타이틀 설정
         title: Text('Code Factory'),
