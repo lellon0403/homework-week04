@@ -21,7 +21,12 @@ class _HomeScreenState extends State<HomeScreen> {
   Timer.periodic(
     Duration(seconds: 3),
     (timer) {
-      print('실행!');
+      //현재 페이지 가져오기
+      int? nextPAge = pageController.page?.toInt();
+
+      if (nextPage == null) { //페이지 값이 없을 때 예외 처리
+        return;
+      }
     },
   );
 }
