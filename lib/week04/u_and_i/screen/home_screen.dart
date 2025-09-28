@@ -40,7 +40,11 @@ class _DDay extends StatelessWidget {
         ),
         Text( //임시로 지정한 만난 날짜
         '2021.11.23',
-        ),     
+        ),
+        const SizedBox(height: 16.0,),
+        IconButton( //하트 아이콘 버튼
+          iconSize: 60.0,
+          onPressed: ,)     
          ],
     );
   }
