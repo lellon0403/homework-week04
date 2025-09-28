@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
         //가운데 정렬
         centerTitle: true,
       ),
+      
       body: Text('home Screen'),
       );
   }
