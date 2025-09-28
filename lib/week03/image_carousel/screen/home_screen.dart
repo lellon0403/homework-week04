@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     super.initState();  //부모 initSTate() 실행
-  }
+  
   Timer.periodic(
     Duration(seconds: 3),
     (timer) {
