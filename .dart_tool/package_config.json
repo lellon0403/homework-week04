@@ -110,6 +110,12 @@
       "languageVersion": "3.4"
     },
     {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///C:/Users/jinu0/AppData/Local/Pub/Cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "sky_engine",
       "rootUri": "file:///C:/Users/jinu0/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
@@ -162,6 +168,30 @@
       "rootUri": "file:///C:/Users/jinu0/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-15.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "webview_flutter",
+      "rootUri": "file:///C:/Users/jinu0/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter-4.10.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "webview_flutter_android",
+      "rootUri": "file:///C:/Users/jinu0/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter_android-4.10.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
+    },
+    {
+      "name": "webview_flutter_platform_interface",
+      "rootUri": "file:///C:/Users/jinu0/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter_platform_interface-2.14.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "webview_flutter_wkwebview",
+      "rootUri": "file:///C:/Users/jinu0/AppData/Local/Pub/Cache/hosted/pub.dev/webview_flutter_wkwebview-3.23.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.9"
     },
     {
       "name": "myapp",
