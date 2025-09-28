@@ -43,12 +43,15 @@ void onHeartPressed(){
 
 class _DDay extends StatelessWidget {
 
-  _DDay({required this.onHeartPressed,//상위 함수 입력받기
+  _DDay({
+    required this.onHeartPressed,//상위 함수 입력받기
+    required this.firstDay, //날자 변수로 입력받기
   });
 
 
   //하트 눌렀을때 실행할 함수
   final GestureTapCallback onHeartPressed;
+  
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
