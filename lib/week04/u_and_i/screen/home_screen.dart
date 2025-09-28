@@ -30,7 +30,8 @@ class _HomeScreenState extends StatelessWidget {
             _CoupleImage(),
           ],
         )
-      ));
+      )
+      );
   }
 
   
