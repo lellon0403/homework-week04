@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar( 
 
         //배경색 지정
-        backgroundColor: const Color.fromARGB(255, 9, 9, 9),
+        backgroundColor: Colors.orange,
 
         //앱 타이틀 설정
         title: Text('Code Factory'),
