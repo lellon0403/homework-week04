@@ -1,6 +1,6 @@
-import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'dart:async';
 
 class HomeScreen extends StateFulWidget{
   const HomeScreen({Key? key}) : super(key:key);
@@ -9,6 +9,7 @@ class HomeScreen extends StateFulWidget{
   State<HomeScreen> createState() => _HomeScreenState();
   
 }
+
 class _HomeScreenState extends State<HomeScreen> {
   //initState() 함수 등록
   @override
