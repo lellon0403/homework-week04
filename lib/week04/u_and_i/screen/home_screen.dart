@@ -8,7 +8,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends StatelessWidget {
-  DateTime firstDAy = DateTime.now();
+  DateTime firstDay = DateTime.now();
   @override
   Widget build(BuildContext context){
     return Scaffold(
