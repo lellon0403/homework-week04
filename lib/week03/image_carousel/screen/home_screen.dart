@@ -4,7 +4,7 @@ import 'dart:async';
 
 class HomeScreen extends StatefulWidget{
   //pageController 생성
-  final PageController pageController = PageController();
+  
   const HomeScreen({Key? key}) : super(key:key);
   
   @override
@@ -14,6 +14,9 @@ class HomeScreen extends StatefulWidget{
 
 class _HomeScreenState extends State<HomeScreen> {
   //initState() 함수 등록
+
+  final PageController pageController = PageController();
+
   @override
   void initState() {
     super.initState();  //부모 initSTate() 실행
@@ -22,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
     Duration(seconds: 3),
     (timer) {
       //현재 페이지 가져오기
-      int? nextPAge = pageController.page?.toInt();
+      int? nextPage = pageController.page?.toInt();
 
       if (nextPage == null) { //페이지 값이 없을 때 예외 처리
         return;
