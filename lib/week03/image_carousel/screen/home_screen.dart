@@ -10,9 +10,8 @@ class HomeScreen extends StateFulWidget{
   State<HomeScreen> createState() => _HomeScreenState();
   
 }
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key : key);
-
+class _HomeScreenState extends State<HomeScreen> {
+  
   @override
   Widget build(BuildContext context) {
     //상태바 색상 변경
