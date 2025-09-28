@@ -70,7 +70,8 @@ class _DDay extends StatelessWidget {
          style: TextTheme.bodyText1,
          ),
         Text( //임시로 지정한 만난 날짜
-       ,
+       //DateTime을 년.월.일 형태로 변경
+      '${firstDay.year}.${firstDay.month}.${firstDay.day}',
          style: TextTheme.bodyText2, // bodyText2 스타일 적용
         ),
         const SizedBox(height: 16.0,),
