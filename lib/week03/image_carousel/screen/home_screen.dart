@@ -24,8 +24,9 @@ class _HomeScreenState extends State<HomeScreen> {
       children: [1,2,3,4,5] //샘플 리스트 생성
       .map( //위젯으로 매핑
       (number) => Image.asset(
-        'asset/img/image_$number.jpeg'),
-        fit:BoxFit.cover, // BoxFit.cover 설정
+        'asset/img/image_$number.jpeg',
+        fit:BoxFit.cover,
+        ), // BoxFit.cover 설정
       )
       .toList(),
       ),
