@@ -44,7 +44,10 @@ class _DDay extends StatelessWidget {
         const SizedBox(height: 16.0,),
         IconButton( //하트 아이콘 버튼
           iconSize: 60.0,
-          onPressed: ,)     
+          onPressed: (){},
+          icon: Icon(
+            Icons.favorite,
+          ),))     
          ],
     );
   }
