@@ -50,9 +50,6 @@ void onHeartPressed(){
       );
     },
   ) ;
-    //firstDay 변수에서 하루 빼기
-    firstDay = firstDay.subtract(Duration(days:1));
-  });
 }
 }
 
