@@ -7,7 +7,7 @@ class HomeScreen extends StatefulWidget {
    State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _HomeScreenState extends StatelessWidget {
+class _HomeScreenState extends State<HomeScreen> {
   DateTime firstDay = DateTime.now();
   @override
   Widget build(BuildContext context){
@@ -29,7 +29,7 @@ class _HomeScreenState extends StatelessWidget {
             ),
             _CoupleImage(),
           ],
-        )
+        ),
       )
       );
   }
