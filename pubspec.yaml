@@ -64,6 +64,13 @@ assets:
 
 fonts:
   - family: parisienne
+    fonts:
+      - asset:  asset/font/parisienne-Regular.ttf
+
+  - family: sunflower
+    fonts:
+      - asset:  asset/font/sunflower-Light.ttf
+      - asse
 
   #   - images/a_dot_ham.jpeg
 
