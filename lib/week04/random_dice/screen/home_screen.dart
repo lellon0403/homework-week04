@@ -49,7 +49,11 @@ void onHeartPressed(){
         height: 300, //높이 300 지정
         child: CupertinoDatePicker(
           mode: CupertinoDatePickerMode.date,
-          onDateTimeChanged: (DateTime date) {},
+          onDateTimeChanged: (DateTime date) {
+            setState(() {
+              firstDay = date;
+            });
+          },
 
         ),
       ),
