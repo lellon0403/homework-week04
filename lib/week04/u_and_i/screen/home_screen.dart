@@ -36,7 +36,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   
 void onHeartPressed(){
-  print('클릭');
+  setState((){
+
+    //firstDay 변수에서 하루 빼기
+    firstDay = firstDay.subtract(Duration(days:1));
+  });
 }
 }
 
