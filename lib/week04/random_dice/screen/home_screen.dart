@@ -52,20 +52,13 @@ void onHeartPressed(){
           onDateTimeChanged: (DateTime date) {},
 
         ),
-      )
-      )
-      //날짜 선택하는 다이얼로그
-      return CupertinoDatePicker(
-        //시간 제외하고 날짜만 선택하기
-        mode: CupertinoDatePickerMode.date,
-        onDateTimeChanged: (DateTime date) {},
+      ),
       );
-    },
-  ) ;
-}
-}
-
-
+     },
+     barrierDismissible: true,//외부 탭할 경우 다이얼로그 닫기
+   );
+ }
+ } 
 class _DDay extends StatelessWidget {
     //하트 눌렀을때 실행할 함수
   final GestureTapCallback onHeartPressed;
