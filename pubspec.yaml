@@ -60,7 +60,7 @@ flutter:
 
 
   assets:
-    - asset/img/
+    - assets/img/
 
   fonts:
     - family: parisienne  # ➊ family 키에 폰트 이름을 지정할 수 있습니다.
