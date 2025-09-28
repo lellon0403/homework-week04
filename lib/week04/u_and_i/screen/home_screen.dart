@@ -17,3 +17,10 @@ class _DDay extends StatelessWidget {
     return Text('DDay Widget');
   }
 }
+
+class _CoupleImage extends StstelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Text('Couple Image Widget');
+  }
+}
