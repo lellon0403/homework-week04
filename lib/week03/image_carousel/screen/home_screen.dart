@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
         return;
       }
 
-      if (nextPage ==4) {
+      if (nextPage ==4) { //첫 페이지와 마지막 페이지 분기 처리
         nextPage = 0;
       } else{
         nextPage++;
