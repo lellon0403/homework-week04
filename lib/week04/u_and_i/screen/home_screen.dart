@@ -28,7 +28,19 @@ class HomeScreen extends StatelessWidget {
 class _DDay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text('DDay Widget');
+    return Column(
+      children: [
+        const SizedBox(height: 16.0),
+        Text(// 최상단 U&I 글자
+        'U&I',
+        ),
+        const SizedBox(height: 16.0,),
+        Text( //두 번째 글자
+        '우리 처음 만난 날',
+        ),
+        
+      ],
+    );
   }
 }
 
