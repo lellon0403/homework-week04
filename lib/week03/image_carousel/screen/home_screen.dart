@@ -3,6 +3,8 @@ import 'package:flutter/services.dart';
 import 'dart:async';
 
 class HomeScreen extends StatefulWidget{
+  //pageController 생성
+  final PageController pageController = PageController();
   const HomeScreen({Key? key}) : super(key:key);
   
   @override
