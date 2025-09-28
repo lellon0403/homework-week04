@@ -42,20 +42,20 @@ void onHeartPressed(){
 
 
 class _DDay extends StatelessWidget {
+    //하트 눌렀을때 실행할 함수
+  final GestureTapCallback onHeartPressed;
+  final DateTime firstDay; //사귀기 시작한 날
 
   _DDay({
     required this.onHeartPressed,//상위 함수 입력받기
     required this.firstDay, //날자 변수로 입력받기
   });
 
-
-  //하트 눌렀을때 실행할 함수
-  final GestureTapCallback onHeartPressed;
-  
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
     final TextTheme = Theme.of(context).textTheme;
+    final now = DateTime.now(); //현재 날짜시간
 
     return Column(
       children: [
