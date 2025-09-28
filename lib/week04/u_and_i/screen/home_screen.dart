@@ -53,11 +53,15 @@ class _DDay extends StatelessWidget {
           onPressed: (){},
           icon: Icon(
             Icons.favorite,
+            color: Colors.red, // 색상 빨강으로 변경
           ),
           ),
           const SizedBox(height: 16.0,),
           Text(// 만난 후 DDay
-          'D+365',),     
+          'D+365',
+          //headline2 스타일 적용
+           style: TextTheme.headline2,
+          ),     
          ],
     );
   }
