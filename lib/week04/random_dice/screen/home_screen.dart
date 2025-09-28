@@ -47,10 +47,7 @@ void onHeartPressed(){
       child: Container(
         color: Colors.white, //배경색 흰색 지정
         height: 300, //높이 300 지정
-        child:  CupertinoDatePicker(//시간 제외하고 날짜만 선택하기
-        mode: CupertinoDatePickerMode.date,
-        onDateTimeChanged: (DateTime date) {},
-      )
+        child: 
       )
       )
       //날짜 선택하는 다이얼로그
