@@ -6,7 +6,8 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-      body: SafeArea( //시스템 UI 피해서 UI 그리기
+      backgroundColor: Colors.pink[100],  //핑크 배경색 적용
+      body: SafeArea(  //시스템 UI 피해서 UI 그리기
         top: true,
         bottom: false,
         child: Column(
