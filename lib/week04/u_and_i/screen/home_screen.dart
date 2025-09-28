@@ -47,7 +47,11 @@ class _DDay extends StatelessWidget {
           onPressed: (){},
           icon: Icon(
             Icons.favorite,
-          ),))     
+          ),
+          ),
+          const SizedBox(height: 16.0,),
+          Text(// 만난 후 DDay
+          'D+365',),     
          ],
     );
   }
