@@ -23,7 +23,10 @@ class _HomeScreenState extends StatelessWidget {
           //반대축 최대 크기로 늘리기
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            _DDay(),
+            _DDay(
+              //하트 눌렀을때 실행할 함수 전달하기
+              onHeartPressed: onHeartPressed,
+            ),
             _CoupleImage(),
           ],
         )
