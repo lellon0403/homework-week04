@@ -30,6 +30,17 @@ class _HomeScreenState extends State<HomeScreen> {
       if (nextPage == null) { //페이지 값이 없을 때 예외 처리
         return;
       }
+
+      if (nextPage ==4) {
+        nextPage = 0;
+      } else{
+        nextPage++;
+      }
+      pageController.animateToPage( //페이지 변경
+        nextPage,
+        duration: Duration(milliseconds: 500),
+        curve: Curves.ease,
+        );
     },
   );
 }
