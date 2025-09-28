@@ -41,6 +41,8 @@ void onHeartPressed(){
 
 
 class _DDay extends StatelessWidget {
+  //하트 눌렀을때 실행할 함수
+  final GestureTapCallback onHeartPressed;
   @override
   Widget build(BuildContext context) {
     // 테마 불러오기
